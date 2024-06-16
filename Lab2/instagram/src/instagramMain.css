@@ -1,0 +1,176 @@
+.register {
+    position: absolute;
+    right:20%;
+    top:5%;
+    padding: 30px;
+}
+.register img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+.border{
+    border: 1px rgb(219, 219, 219) solid;
+    /* box-shadow: 1px 1px 5px rgb(119, 103, 103); */
+    padding: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.border2{
+    border: 1px rgb(219, 219, 219) solid;
+    /* background-color: rgb(240, 238, 238); */
+    box-shadow: 1px 1px 5px rgb(119, 103, 103);
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.button-enter{
+    display: block;
+    background-color: rgb(30, 101, 255);
+    color: white;
+    border: 0.0px;
+    padding: 10px;
+    padding-right: 120px;
+    padding-left: 127px;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 15px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.button-enter:active{
+    background-color: #234080;
+}
+.forgot-password{
+    display: block;
+    color: rgb(5, 5, 5);
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 25px;
+}
+.input{
+    width: 88%;
+    padding: 15px;
+    border: 0.0px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 13px;
+}
+/* */
+.orr {
+    margin: 10px 0;
+    width: 300px;
+    height: 14px;
+    display: flex;
+    flex-direction: row;
+}
+.line {
+    width: 150px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.or {
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 600;
+    margin: 0 18px;
+    color: rgb(142, 142, 142);
+}
+.button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    border: none;
+    background-color: white;
+    color: rgb(56, 81, 133);
+    font-weight: 600;
+    font-size: 14px;
+
+}
+.button2 img {
+    width: 20px;
+    margin-right: 10px;
+}
+/* */
+.account {
+    font-size: 14px;
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 41px;
+    padding: 10px 0;
+    background-color: white;
+    border: 1px rgb(219, 219, 219) solid;
+    margin-bottom: 10px;
+}
+.account a {
+    margin-left: 5px;
+    color: rgb(0, 122, 237);
+    text-decoration: none;
+}
+.forgot-password{
+    font-family: Helvetica;
+}
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download img {
+    width: 130px;
+    margin: 10px;
+}
+
+.border-account {
+    font-weight: bold;
+} 
+
+/* phone */
+.phone {
+    position: absolute;
+    left: 22%;
+    top: 8%;
+    width: 100%;
+    height: 100%;
+}
+/* footer */
+.footer {
+    position: absolute;
+    top: 100%;
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 100%;
+    height: 134px;
+    min-height: 70px;
+}
+.first-line {
+    font-family: inherit;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.first-line a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+    font-size: 12px;
+}
+
+.second-line {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgb(142, 142, 142);
+    font-size: inherit;
+}
